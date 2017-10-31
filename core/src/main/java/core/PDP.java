@@ -23,11 +23,11 @@ public class PDP {
 	TestLogic.validateVisElem("addToCartBtn", ObjectStorage.addToCartBtn);
 	TestLogic.scrollIntoView(ObjectStorage.breadcrumbList);
 	TestLogic.clickOn(ObjectStorage.addToCartBtn);
-	
+	System.out.println("Test Case 05: PASSED (Added to Cart)");
 
 	TestLogic.validateVisElem("checkoutBtn", ObjectStorage.checkoutBtn);
 	TestLogic.clickOn(ObjectStorage.checkoutBtn);
-	
+	System.out.println("Test Case 06: PASSED (Checkout)");
 	TestLogic.returnUrl();
 	TestLogic.quit();
     }

@@ -25,7 +25,7 @@ public class ObjectStorage {
     @FindBy(xpath = "id('facetedNavHorizontalContainer')/div[1]/div[2]/ul[1]/li[4]/label[1]/a[1]")
     static WebElement priceRangeFourthMenuItem;
 
-    @FindBy(xpath = "//*[@id='subCatListContainer']/ul/li[1]/div[1]/div/a/span/img")
+    @FindBy(xpath = "//*[@id='subCatListContainer']/ul/li[1]/a[2]")
     static WebElement firstItem;
 
     @FindBy(xpath = "//span[contains(text(),'Add to Cart')]")

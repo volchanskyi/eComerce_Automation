@@ -26,6 +26,7 @@ public class ItemListPage {
 	TestLogic.clickOn(ObjectStorage.priceRangeFourthMenuItem);
 
 	TestLogic.validatePresElem("firstItem", ObjectStorage.firstItem);
+	System.out.println("Test Case 04: PASSED (" + TestLogic.getText(ObjectStorage.firstItem) + " is exists)");
 	TestLogic.clickOn(ObjectStorage.firstItem);
 	TestLogic.returnUrl();
 	TestLogic.quit();

@@ -25,6 +25,7 @@ public class SignInPage {
 	TestLogic.validateVisElem("logInBtn", ObjectStorage.logInBtn);
 	TestLogic.clickOn(ObjectStorage.logInBtn);
 //
+	
 	TestLogic.navigateToUrl();
 //	TestLogic.quit();
     }

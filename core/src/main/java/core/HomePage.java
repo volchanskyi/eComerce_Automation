@@ -11,7 +11,7 @@ public class HomePage {
 	TestLogic.returnUrl();
 	SignInPage.validate();
 	//TC STARTS HERE
-	
+	System.out.println("Test Case 01: PASSED (Entered to Home Page and Overlay 'Sign Up and Safe' is closed");
 	
 //	TestLogic.validatePresElem("minimizeOverlay", ObjectStorage.minimizeOverlay);
 //	TestLogic.clickOn(ObjectStorage.minimizeOverlay);
@@ -24,8 +24,9 @@ public class HomePage {
 
 	TestLogic.validateVisElem("teaKettlesSection", ObjectStorage.teaKettlesSection);
 	TestLogic.clickOn(ObjectStorage.teaKettlesSection);
-
+	System.out.println("Test Case 03: PASSED (Category 'Tea Kettles' is selected)");
 	TestLogic.returnUrl();
+	
 	TestLogic.quit();
     }
 }

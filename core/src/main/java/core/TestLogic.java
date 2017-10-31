@@ -93,7 +93,7 @@ public class TestLogic {
 
     public static String getText(WebElement elemName) {
 	if (!elemName.getText().isEmpty()) {
-	    System.out.println("The Item has the next name: " + elemName.getText());
+//	    System.out.println("Item has the next name: " + elemName.getText());
 	} else {
 	    System.out.println("element is empty!");
 	}
@@ -106,7 +106,7 @@ public class TestLogic {
 
     public static void validateText(String exp, String actual) {
 	if (exp.equals(actual)) {
-	    System.out.println("The item saved on the previous stage mathes the expected string (" + actual + ")");
+	    System.out.println("The item saved in the shopping cart mathes the item from the saved for later list (" + actual + ")");
 	} else {
 	    System.out.println("Error");
 //	    System.out.println(Main.validatedText);
